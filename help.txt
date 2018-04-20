@@ -1,0 +1,41 @@
+
+Thanks for using the Empath program! This program allows you to see 4 different 
+visualizations related to emotions in the media. 
+
+\\ Here are the emotions we support: 
+
+- positive_emotion 
+- contentment 
+- negative_emotion 
+- power 
+- anger
+- emotional 
+- sadness 
+- warmth 
+- disgust 
+- dominant_personality 
+- violence  
+- healing 
+- ridicule  
+- weakness  
+- envy  
+- cheerfulness
+- hate 
+
+\\ Here are the media sources we support: 
+
+- news_api (uses articles from Fox News)
+- sotu (uses text from President Trump's most recent State of the Union speech)
+- twitter (uses text from President Trump's latest tweets)
+
+\\ Here are the commands for  each visualization: 
+
+- compare_sources <emotion name>
+	Shows the average score of a given emotion across the 3 different sources
+- twitter_faves_emotion <emotion name> 
+	Shows correlation between the number of "favorites" on a tweet and how much
+	it uses a given emotion 
+- twitter_time_emotion <emotion name>
+	Shows how presence of a given emotion in Trump's tweets changes over time 
+- view_all_from_source <source>
+	Shows the average use of each of the 16 emotions in a given source
