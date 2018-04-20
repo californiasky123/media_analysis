@@ -4,9 +4,9 @@ This program allows you to see 4 different visualizations related to emotions in
 
 DATA SOURCES USED 
 
-1.State of the Union speech. I used BeautifulSoup to scrape the most recent State of the Union speech. More info here: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
-2.Twitter. I used Twitter's "Accounts" endpoint API to get Trump's 100 most recent Tweets. https://developer.twitter.com/
-3.News API. I used "Everything" endpoint from News API to pull snippets from recent Fox News articles. More info available here: https://newsapi.org/docs/
+1. State of the Union speech. I used BeautifulSoup to scrape the most recent State of the Union speech. More info here: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+2. Twitter. I used Twitter's "Accounts" endpoint API to get Trump's 100 most recent Tweets. https://developer.twitter.com/
+3. News API. I used "Everything" endpoint from News API to pull snippets from recent Fox News articles. More info available here: https://newsapi.org/docs/
 
 KEY INFO TO RUN THE PROGRAM 
 
@@ -18,8 +18,8 @@ CODE STRUCTURE
 
 This program has three main functions:
 1. pre_process(). This function creates a database. It also pulls data from the three sources and stores it in 3 different tables in the DB. 
-2.prep_empath(). This function uses the Empath package to analyze the emotion contained in each source. It also creates a table in the DB to store this information and populates it. 
-3.interactive(). This function allows the user to see 4 different Plotly visualizations related to SQL pulls 
+2. prep_empath(). This function uses the Empath package to analyze the emotion contained in each source. It also creates a table in the DB to store this information and populates it. 
+3. interactive(). This function allows the user to see 4 different Plotly visualizations related to SQL pulls 
 
 Data and Storage: 
 
